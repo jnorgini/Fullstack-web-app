@@ -1,0 +1,10 @@
+INSERT INTO produtos(nome, marca) VALUES ('iPhone 13','Apple');
+INSERT INTO produtos(nome, marca) VALUES ('Galaxy SS2','Samsung');
+INSERT INTO produtos(nome, marca) VALUES ('Moto G60s','Motorola');
+INSERT INTO produtos(nome, marca) VALUES ('iPhone 13 Pro Max','Apple');
+INSERT INTO produtos(nome, marca) VALUES ('Redmi Note 10S','Xiomi');
+INSERT INTO produtos(nome, marca) VALUES ('Galaxy S20 FE','Samsung');
+INSERT INTO produtos(nome, marca) VALUES ('Galaxy A03','Samsung');
+INSERT INTO produtos(nome, marca) VALUES ('Moto Edge 20','Motorola');
+INSERT INTO produtos(nome, marca) VALUES ('iPhone 12','Apple');
+INSERT INTO produtos(nome, marca) VALUES ('Mi 11 Midnight','Xiomi');
