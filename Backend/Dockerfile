@@ -4,6 +4,6 @@ COPY . /app/
 RUN mvn clean package
 
 FROM openjdk:17
-COPY --from=build /app/target/*.jar /app/app.jar
+COPY --from=build /app/target/*.jar produtos.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","produtos.jar"]
