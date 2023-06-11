@@ -19,7 +19,7 @@ function App() {
 
   // UseEffect
   useEffect(()=>{
-    fetch("https://web-service-msg6.onrender.com/produtos/listar")
+    fetch("https://webservice-produtos.onrender.com/produtos/listar")
     .then(retorno => retorno.json())
     .then(retorno_convertido => setProdutos(retorno_convertido))
   }, []);
@@ -31,7 +31,7 @@ function App() {
 
   // Cadastrar produto
   const cadastrar = () => {
-    fetch('https://web-service-msg6.onrender.com/produtos/cadastrar', {
+    fetch('https://webservice-produtos.onrender.com/produtos/cadastrar', {
       method:'post',
       body:JSON.stringify(objProduto),
       headers:{
@@ -55,7 +55,7 @@ function App() {
 
   // Alterar produto
   const alterar = () => {
-    fetch('https://web-service-msg6.onrender.com/produtos/alterar', {
+    fetch('https://webservice-produtos.onrender.com/produtos/alterar', {
       method:'put',
       body:JSON.stringify(objProduto),
       headers:{
@@ -95,7 +95,7 @@ function App() {
 
    // Remover produto
    const remover = () => {
-    fetch('https://web-service-msg6.onrender.com/produtos/remover/'+objProduto.id, {
+    fetch('https://webservice-produtos.onrender.com/produtos/remover/'+objProduto.id, {
       method:'delete',
       headers:{
         'Content-type':'application/json',
