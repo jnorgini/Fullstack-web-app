@@ -14,9 +14,9 @@
 - [x] Java
 - [x] Spring Boot
 - [x] Maven
-- [x] JPA
+- [x] JPA / Hibernate
 - [x] Lombok
-- [x] Web Services 
+- [x] Web Service
 - [x] H2 Database
 - [x] Spring Tool Suite 4
 - [x] Postman
@@ -25,7 +25,7 @@
 - [x] JavaScript
 - [x] HTML
 - [x] CSS
-- [x] React
+- [x] React.js
 - [x] Node.js
 - [x] Visual Studio Code
 
