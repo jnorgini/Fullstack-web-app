@@ -55,9 +55,8 @@
 
 ```bash
 # Browser 
-> http://localhost:8080/produtos/listar
 > http://localhost:8080/h2-console/
-> https://products-res3.onrender.com/
+> https://webservice-produtos.onrender.com/produtos/listar
 
 ```
 
