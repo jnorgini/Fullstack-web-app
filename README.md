@@ -56,7 +56,6 @@
 
 ```bash
 # Browser 
-> http://localhost:8080/h2-console/
 > https://greedy-arithmetic-production.up.railway.app/produtos/listar
 
 ```
