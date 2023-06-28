@@ -17,7 +17,7 @@
 - [x] JPA / Hibernate
 - [x] Lombok
 - [x] Web Service
-- [x] H2 Database
+- [x] PostgreSQL
 - [x] Spring Tool Suite 4
 - [x] Postman
 
@@ -33,8 +33,8 @@
 - [x] Git
 
 #### Deploy:
-- [x] Railway (Back-End)
-- [x] Render (Front-End)
+- [ `Railway` ](https://railway.app/) Back-End
+- [ `Render` ](https://dashboard.render.com/) Front-End
  
 <h2></h2>
 
@@ -57,7 +57,7 @@
 ```bash
 # Browser 
 > http://localhost:8080/h2-console/
-> https://webservice-produtos.onrender.com/produtos/listar
+> https://greedy-arithmetic-production.up.railway.app/produtos/listar
 
 ```
 
