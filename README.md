@@ -33,7 +33,8 @@
 - [x] Git
 
 #### Deploy:
-- [x] Render
+- [x] Railway (Back-End)
+- [x] Render (Front-End)
  
 <h2></h2>
 
